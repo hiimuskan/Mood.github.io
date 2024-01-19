@@ -1,0 +1,284 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
+nav{
+    background-color:bisque;
+    display: grid;
+    place-items: center;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: purple;
+    transition: 0.2s ease;
+    font-size: 20px;
+}
+nav ul a:hover{
+    background-color: brown;
+    color: black;
+}
+.items{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   padding: 20px 30px;
+   grid-column-gap:20px;
+   grid-row-gap:30px;
+}
+.item5 img{
+    width: 400px;
+    height: 300px;
+}
+.item1 img{
+    width: 400px;
+    height: 300px;
+}
+.item2 img{
+    width: 400px;
+    height: 300px;
+}
+.item3 img{
+    width: 400px;
+    height: 300px;
+}
+.item4 img{
+    width: 400px;
+    height: 300px;
+}
+.item6 img{
+    width: 400px;
+    height: 300px;
+}
+.item7 img{
+    width: 400px;
+    height: 300px;
+}
+.item8 img{
+    width: 400px;
+    height: 300px;
+}
+.item9 img{
+    width: 400px;
+    height: 300px;
+}
+.item10 img{
+    width: 400px;
+    height: 300px;
+}
+.item11 img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    cursor:pointer;
+    transition: 0.2s ease;
+}
+.item1 img:hover{
+    transform: scale(1.04);
+}
+.item2 img:hover{
+    transform: scale(1.04);
+}
+.item3 img:hover{
+    transform: scale(1.04);
+}
+.item4 img:hover{
+    transform: scale(1.04);
+}
+.item5 img:hover{
+    transform: scale(1.04);
+}
+.item6 img:hover{
+    transform: scale(1.04);
+}
+.item7 img:hover{
+    transform: scale(1.04);
+}
+.item8 img:hover{
+    transform: scale(1.04);
+}
+.item9 img:hover{
+    transform: scale(1.04);
+}
+.item10 img:hover{
+    transform: scale(1.04);
+}
+.item11 img:hover{
+    transform: scale(1.04);
+}
+
+.item1 button{
+    background-color: green;
+    width: 60px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
+.item2 button{
+    background-color: green;
+    width: 60px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
+.item3 button{
+    background-color: green;
+    width: 60px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
+.item4 button{
+    background-color: green;
+    width: 60px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
+.item5 button{
+    background-color: green;
+    width: 60px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
+.item6 button{
+    background-color: green;
+    width: 60px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
+.item7 button{
+    background-color: green;
+    width: 60px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
+.item8 button{
+    background-color: green;
+    width: 60px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
+.item9 button{
+    background-color: green;
+    width: 60px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
+.item10 button{
+    background-color: green;
+    width: 60px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
+.item11 button{
+    background-color: green;
+    width: 60px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
+.item1 h4{
+    text-align: center;
+}
+.item2 h4{
+    text-align: center;
+}
+.item3 h4{
+    text-align: center;
+}
+.item4 h4{
+    text-align: center;
+}
+.item5 h4{
+    text-align: center;
+}
+.item6 h4{
+    text-align: center;
+}
+.item7 h4{
+    text-align: center;
+}
+.item8 h4{
+    text-align: center;
+}
+.item9 h4{
+    text-align: center;
+}
+.item10 h4{
+    text-align: center;
+}
+.item11 h4{
+    text-align: center;
+}
